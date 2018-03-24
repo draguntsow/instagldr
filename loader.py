@@ -34,7 +34,7 @@ def scan(filename):
 #Loading function is used for download photos by links retrieved from scan()
 def load(links, fold=''):
     if fold == '':
-        fold = os.getcwd() #if the directiry is not specified, the current one will be used
+        fold = os.getcwd() #if the directory is not specified, the current one will be used
 
     index = 1
     for link in links:
