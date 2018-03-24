@@ -22,6 +22,3 @@ def load(links, fold=''):
     for link in links:
         urllib.request.urlretrieve(link, fold+'\\'+str(index)+'.jpg')
         index+=1
-
-lnks = scan(r'E:\DEVELOPMENT\Python\INSTATOOL\sample.html')
-load(lnks, r'E:\DEVELOPMENT\Python\INSTATOOL')
